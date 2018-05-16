@@ -15,7 +15,6 @@ Requirements:
 
 You can install the required python packages by running the following commands Unix in terminal: 
 
-1.
 ```
   cd blockchain-graph-analysis
   chmod +x ./pkg.sh
