@@ -6,7 +6,7 @@ We parse the raw data in the bitcoin blockchain into transactions between public
 
 
 |*tran.txt*|
- ------------- |
+| ------------- |
 | Column       | Corresponding meaning          | 
 | ------------- |:-------------:|
 | 1      | The public address of the sender | 
