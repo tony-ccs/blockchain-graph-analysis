@@ -48,7 +48,7 @@ You can install the required python packages by running the following commands U
 ```
   cd blockchain-graph-analysis
   chmod +x ./pkg.sh
-  ./pkg.sh
+  ./pkgs.sh
 ```
 
 ## Instructions
