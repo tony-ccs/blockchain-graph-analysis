@@ -3,11 +3,17 @@
 ## Prerequisite
 
 Requirements:
-1. bitcoin-blockchain-parser:
+1. plyvel
+2. python-bitcoinlib
+3. bitcoin-blockchain-parser:
 https://github.com/alecalve/python-bitcoin-blockchain-parser
-2. plyvel:
-  sudo apt-get install libleveldb-dev
 
-You can install the required packages 
-Alternative
+
+You can install the required packages of following the following steps Unix in terminal: 
+
+1. chmod +x ./pkg.sh
+
+2. ./pkg.sh
+
+
 
