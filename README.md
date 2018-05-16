@@ -28,9 +28,9 @@ We transform the transactions between public addresses in the step 1 into transa
 | ------------- |:-------------:|
 | 1      | The user id of the sender | 
 | 2      | The user id of the recepient     |  
-| 3 | The value of the transaction      |  
-| 4 | Data and time of the transaction      |  
-| 5 | The block number of the transaction      |  
+| 3 | Data and time of the transaction      |  
+| 4 | The block number of the transaction      |  
+| 5 | The value of the transaction      |  
 
 The number of transactions between users will be less than the number of transactions between public addresses because multiple transactions between the same users at each timestamp are summed into one.
 
