@@ -1,6 +1,10 @@
 # blockchain-graph-analysis
 
-## Prerequisite
+Our project consists of two steps:
+1. Blockchain parsing
+2. Graph analysis of the parsed user graph
+
+## Prerequisite for 1. blockchain parsing
 
 Requirements:
 1. Please make sure that you can the bitcoin blockchain in your computer, otherwise go to https://bitcoin.org/en/full-node#ubuntu-1604.
@@ -10,7 +14,6 @@ Requirements:
 You can install the required python packages by running the following commands Unix in terminal: 
 1. chmod +x ./pkg.sh
 2. ./pkg.sh
-
 
 
 
