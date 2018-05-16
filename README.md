@@ -1,10 +1,25 @@
 # blockchain-graph-analysis
-
+## Introduction
 This work consists of four steps:
 1. Blockchain data parsing
+We parse the raw data in the bitcoin blockchain into transaction data we need in *tran.txt*. In *tran.txt*, each line represents one bitcoin transaction. The corresponding meanings of the columns in *tran.txt*:
+
+| Column       | Corresponding meaning          | 
+| ------------- |:-------------:|
+| 1      | The public address of the sender | 
+| 2      | The public address of the recepient     |  
+| 3 | The value of the transaction      |  
+| 4 | Data and time of the transaction      |  
+| 5 | The block number of the transaction      |  
+
+
 2. Linking related public addresses
+
+
 3. Creating user graph
-2. Graph analysis of the user graph
+
+
+4. Graph analysis of the user graph
 
 ## Prerequisite for step 1
 
