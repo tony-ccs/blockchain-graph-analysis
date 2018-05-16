@@ -29,7 +29,7 @@ You can install the required python packages by running the following commands U
 ```
 
 ## Instructions
-For parsing, make sure you have the bitcoin blockchain ready in *blockchain_path*. Then you need to specify the date of the last blockchain you want to parse as *end_date*  and the directory your want to save the parsing results as *out_dir* in *YYYY-MM-DD* format. 
+For parsing, make sure you have the bitcoin blockchain ready in *blockchain_path*. You need to specify the date of the last blockchain you want to parse as *end_date*  and the directory for the parsing results as *out_dir* in *YYYY-MM-DD* format. 
 
 Run in terminal:
 
