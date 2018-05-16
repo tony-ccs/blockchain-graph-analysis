@@ -7,7 +7,7 @@ Our project consists of two steps:
 ## Prerequisite for 1. blockchain parsing
 
 Requirements:
-1. Please make sure that you can the bitcoin blockchain in your computer, otherwise go to https://bitcoin.org/en/full-node#ubuntu-1604.
+1. Please make sure that you have the bitcoin blockchain in your computer, otherwise go to https://bitcoin.org/en/full-node#ubuntu-1604.
 2. python packages: plyvel, python-bitcoinlib, and bitcoin-blockchain-parser (https://github.com/alecalve/python-bitcoin-blockchain-parser)
 
 
