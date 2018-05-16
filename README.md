@@ -10,9 +10,7 @@ https://github.com/alecalve/python-bitcoin-blockchain-parser
 
 
 You can install the required packages of following the following steps Unix in terminal: 
-
 1. chmod +x ./pkg.sh
-
 2. ./pkg.sh
 
 
