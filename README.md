@@ -5,8 +5,7 @@ This work consists of four steps. The first three steps are data preprocessing a
 We parse the raw data in the bitcoin blockchain into transactions between public addresses as *tran.txt*. In *tran.txt*, each line represents one bitcoin transaction. The corresponding meanings of its columns:
 
 
-|*tran.txt*                     |
-| ------------- |:-------------:|
+
 | Column       | Corresponding meaning          | 
 | ------------- |:-------------:|
 | 1      | The public address of the sender | 
