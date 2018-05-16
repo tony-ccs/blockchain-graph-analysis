@@ -35,8 +35,11 @@ We transform the transactions between public addresses in the step 1 into transa
 The number of transactions between users will be less than the number of transactions between public addresses because multiple transactions between the same users at each timestamp are summed into one.
 
 ### 4. Graph analysis of the user graph
+We include notebooks to demonstrate we graph analysis process. 
 
-## Prerequisite for step 1
+
+
+## Installation for step 1
 
 Requirements:
 1. Please make sure that you have the bitcoin blockchain in your computer, otherwise go to https://bitcoin.org/en/full-node#ubuntu-1604.
