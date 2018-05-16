@@ -4,8 +4,9 @@ This work consists of four steps. The first three steps are data preprocessing a
 ### 1. Blockchain data parsing
 We parse the raw data in the bitcoin blockchain into transactions between public addresses as *tran.txt*. In *tran.txt*, each line represents one bitcoin transaction. The corresponding meanings of its columns:
 
-<center>
-  
+
+|*tran.txt*|
+ ------------- |
 | Column       | Corresponding meaning          | 
 | ------------- |:-------------:|
 | 1      | The public address of the sender | 
@@ -14,7 +15,7 @@ We parse the raw data in the bitcoin blockchain into transactions between public
 | 4 | Data and time of the transaction      |  
 | 5 | The block number of the transaction      |  
 
-</center>
+
 
 ### 2. Linking related public addresses
 We link the public addresses that are owned by the same user into *links.txt*, *along.txt*, *a2u.txt* and *u2a.txt*. 
