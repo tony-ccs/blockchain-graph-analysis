@@ -1,12 +1,12 @@
 # blockchain-graph-analysis
 
-This work consists of two steps:
+This work consists of four steps:
 1. Blockchain data parsing
 2. Linking related public addresses
 3. Creating user graph
 2. Graph analysis of the user graph
 
-## Prerequisite for 1. blockchain parsing
+## Prerequisite for step 1
 
 Requirements:
 1. Please make sure that you have the bitcoin blockchain in your computer, otherwise go to https://bitcoin.org/en/full-node#ubuntu-1604.
