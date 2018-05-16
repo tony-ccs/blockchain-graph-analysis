@@ -1,6 +1,6 @@
 # blockchain-graph-analysis
 
-Our project consists of two steps:
+This work consists of two steps:
 1. Blockchain parsing
 2. Graph analysis of the parsed user graph
 
