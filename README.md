@@ -34,17 +34,24 @@ For parsing, make sure you have the bitcoin blockchain ready in *blockchain_path
 Run in terminal:
 
 ```
-python parsing.py *blockchain_path* *end_date* *out_dir*
+python parsing.py blockchain_path end_date out_dir
 ```
 
-For linking, you need to the parsed data ready and specify the directory or the results as *direc*. 
+For linking, you need to the parsed data ready and specify the directory of the results as *direc*. 
 
 Run in terminal:
 
 ```
-python linking.py *direc*
+python linking.py direc
 ```
 
+For creating the user graph, you need to the results from the previous steps and specify the directory of the results as *direc*. 
+
+Run in terminal:
+
+```
+python ugraph.py direc
+```
 
 
 
