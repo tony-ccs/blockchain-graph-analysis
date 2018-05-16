@@ -32,7 +32,7 @@ We transform the transactions between public addresses in the step 1 into transa
 | 4 | Data and time of the transaction      |  
 | 5 | The block number of the transaction      |  
 
-The number of transactions between users will be less than the number of transactions between public addresses because multiple transactions between the same users at each timestamp are sumed into one.
+The number of transactions between users will be less than the number of transactions between public addresses because multiple transactions between the same users at each timestamp are summed into one.
 
 ### 4. Graph analysis of the user graph
 
@@ -75,13 +75,3 @@ Run in terminal:
 ```
 python ugraph.py direc
 ```
-
-
-
-
-
-
-
-
-
-
