@@ -1,8 +1,8 @@
 # blockchain-graph-analysis
 ## Introduction
-This work consists of four steps:
+This work consists of four steps. The first three are data preprocessing. 
 ### 1. Blockchain data parsing
-We parse the raw data in the bitcoin blockchain into transaction data we need in *tran.txt*. In *tran.txt*, each line represents one bitcoin transaction. The corresponding meanings of the columns in *tran.txt*:
+We parse the raw data in the bitcoin blockchain into transactions between public addresses as *tran.txt*. In *tran.txt*, each line represents one bitcoin transaction. The corresponding meanings of its columns:
 
 <center>
   
@@ -17,13 +17,24 @@ We parse the raw data in the bitcoin blockchain into transaction data we need in
 </center>
 
 ### 2. Linking related public addresses
+We link the public addresses that are owned by the same user into *links.txt*, *along.txt*, *a2u.txt* and *u2a.txt*. 
 
+Each line in *links.txt* is an undirected link between two public addresses. *along.txt* contains the addresses that are not linked to any other public addresses we have seen so far. Each line in *a2u.txt* is a *address:user_id* pair, mapping an public address to the id of its user. Each line in *u2a.txt* is a *user_id:addresses* pair, mapping an user id to the public addresses it owns, delimited by ','.
 
+### 3. Creating the user graph 
+We transform the transactions between public addresses in the step 1 into transactions between users and result in *user_graph.txt*. The corresponding meanings of its columns:
 
-3. Creating user graph
+| Column       | Corresponding meaning          | 
+| ------------- |:-------------:|
+| 1      | The user id of the sender | 
+| 2      | The user id of the recepient     |  
+| 3 | The value of the transaction      |  
+| 4 | Data and time of the transaction      |  
+| 5 | The block number of the transaction      |  
 
+The number of transactions between users will be less than the number of transactions between public addresses because multiple transactions between the same users at each timestamp are sumed into one.
 
-4. Graph analysis of the user graph
+### 4. Graph analysis of the user graph
 
 ## Prerequisite for step 1
 
