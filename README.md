@@ -1,6 +1,6 @@
 # blockchain-graph-analysis
 ## Introduction
-This work consists of four steps. The first three are data preprocessing. 
+This work consists of four steps. The first three steps are data preprocessing and the fourth step is visualization and graph analysis.
 ### 1. Blockchain data parsing
 We parse the raw data in the bitcoin blockchain into transactions between public addresses as *tran.txt*. In *tran.txt*, each line represents one bitcoin transaction. The corresponding meanings of its columns:
 
